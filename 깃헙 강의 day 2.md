@@ -269,17 +269,21 @@ $ django-admin startproject campus
 
  $ cd campus
 
-$ python manage.py runserver 8080
+$ python manage.py runserver **8080**
 
 
 
 ctrl c 서버 껏다 킴 
 
+share access 하고 
+
 settings.py allowedhosts =['*']
 
 : ide.cs50.io/adak0102/ide/로 들어감 
 
+https://us-west-2.console.aws.amazon.com/cloud9/ide/4e4072220f4a4159befa50ce7bb842a3?#
 
+https://4e4072220f4a4159befa50ce7bb842a3.vfs.cloud9.us-west-2.amazonaws.com/projectapp/index/
 
 도메인 구매 
 

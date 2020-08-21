@@ -301,9 +301,7 @@ ls
 
 
 
-Git-flow
-
-
+>  Git-flow
 
 master브랜치(거의 못건듬): 실제 돌아가는 배민 앱 
 
@@ -311,11 +309,142 @@ develop브랜치 (개발)
 
 login브랜치..
 
-
-
 develop-> release (test서버) : 서버 2-3개 정도, 해외,국내,test서버... ->회사마다 QA팀이 점검 ,,,Quality Assurance팀  _ 버전업 하면서 고치고 -> master로 감
 
-
-
 hotfix _ 임시브랜치_ 오류날때 위해_ 진짜 중요한 코드 넣어놈 
+
+https://woowabros.github.io/experience/2017/10/30/baemin-mobile-git-branch-strategy.html
+
+
+
+
+
+
+
+> 만든 폴더 삭제
+>
+> rm -rf collabo 
+
+
+
+
+
+
+
+> collabo
+>
+> 
+
+https://github.com/connect-foundation/2019-18
+
+collabo파일 만들고 
+
+code.
+
+html/ Readme
+
+gitinit
+
+git add . 
+
+git commit
+
+뉴 리퍼지토리 만듬 collabo
+
+git remote add origin [url]
+
+git push origin master
+
+> 부하 
+>
+> > git clone [url]
+> >
+> > 
+
+<각자의 브랜치로 동시 작업 함>
+
+대장
+
+git branch sunny-intro
+
+> > 부하
+> >
+> > git branch joonhong-intro
+
+git checkout sunny-intro 
+
+<절대 마스터 건드리지 않음_마스터 브린치는 맨 앞에 있음 _브랜치에서 작업함>
+
+팀장 마크다운
+
+노예 html  신경씀 
+
+``` html에 작성 
+## 팀소개
+
+- 박성희 : sunny , 마크다운 작성
+- 박준홍: 학생, html 작성
+```
+
+
+
+> 대장 
+>
+> git add README.md
+>
+> git commit -m "Add team member info"
+>
+> > 짝궁 
+> >
+> > git add html
+
+git push origin sunny-intro 
+
+master 아니라 우리가 가진 branch (원격에 push 할때- 우리가 가진 branch)
+
+> > 짝궁
+> >
+> > git push origin 짝궁-intro
+
+
+
+팀장은 초대 먼저 _ settings_ manage access_invite
+
+git push origin sunny-intro 
+
+code 에 branch 추가 되어있음 
+
+하고 
+
+pull-request 에서 new pull request 
+
+base:master<- compare :sungheepark으로 하고 
+
+pull request
+
+
+
+
+
+> 코드 리뷰 대장이 함
+>
+> pull request 에서 merge pull request 후 
+>
+> delete branch
+>
+> master껏도 merge 후
+>
+> branch delete 
+
+https://hpy.hk/github-flow
+
+
+
+
+
+> 다른 브랜치에서 pull하면 안됨 
+>
+> https://git-school.github.io/visualizing-git/
+>
+> master에서 master pull
 
